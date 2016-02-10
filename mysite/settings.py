@@ -50,6 +50,12 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'mysite.urls'
 
+TEMPLATE_DIRS = (       
+                  os.path.join('templates'),
+
+)
+ 
+
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
